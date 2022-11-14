@@ -1,5 +1,5 @@
 function evenOrOdd(number) {
-  number % 2 === 0 ? console.log('Even') : console.log('Odd')
+  return number % 2 === 0 ? 'Even' : 'Odd'
 }
 
-evenOrOdd(2)
+console.log(evenOrOdd(2))
